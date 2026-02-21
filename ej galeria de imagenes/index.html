@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Galería de imágenes</h1>
+    <h2>Proyecto</h2>
+    <img id="torrebruno" src="assets/imagen1.jpg" alt="imagen1">
+    <div id="torrebruna"></div>
+
+
+    <script>
+        const imagen1 = document.getElementById("torrebruno")
+        const imagen2 = document.getElementById("torrebruna")
+
+
+
+        function torrebruno(img) {
+            console.log("torrebruno")
+            torrebruna.innerHTML = "<h2 class='subtitulo'>Quiero croquetas</h2><p class='subtitulo2' > Diseño cálido y gastronómico, con estética tradicional y tipografía rústica. </p>"
+        }
+        function alerta() {
+            alert("cuidado")
+        }
+
+
+        imagen1.addEventListener("click", torrebruno)
+
+        const imagenes = [
+            { url: "assets/imagen2.jpg", alt: "imagen2" },
+            { url: "assets/imagen3.jpg", alt: "imagen3" },
+            { url: "assets/imagen4.jpg", alt: "imagen4" },
+            { url: "assets/imagen5.jpg", alt: "imagen5" },
+            { url: "assets/imagen6.jpg", alt: "imagen6" }
+        ]
+
+        imagenes.forEach((item, index) => {
+            console.log(index, item.url + " " + item)
+            imagen2.innerHTML += "<h2 class='tituloimagenes'> Proyecto </h2><img id='imagen" + index + "' src='" + item.url + " '></img> "
+        })
+
+        // crear una galeria que sea modo noche dandole a un botón (elemento?,constante, evento,id)
+
+    </script>
+</body>
+
+</html>
