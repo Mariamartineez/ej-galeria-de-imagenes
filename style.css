@@ -1,0 +1,44 @@
+img {
+    width: 300px;
+    display: block;
+    margin: 40px auto;
+    
+}
+.subtitulo {
+   text-align: center;
+    font-family: satoshi, Arial, Helvetica, sans-serif;
+    margin: 40px;
+    font-size: 30px;
+    margin-top: 40px;
+}
+h1 {
+    text-align: center;
+    font-family: satoshi,Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.subtitulo2 {
+    text-align: center;
+    font-family: satoshi, Arial, Helvetica, sans-serif;
+    margin: 40px;
+    font-size: 15px;
+    margin-top: -30px;
+}
+body img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 20px rgba(21, 21, 21, 0.8);
+}
+.tituloimagenes {
+    text-align: center;
+        font-family: satoshi, Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        margin-top: 20px;
+}
+h2 {
+    text-align: center;
+        font-family: satoshi, Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        margin-top: 20px;
+        font-size: 25px;
+  
+}
